@@ -3,8 +3,7 @@
 '''
 
 def add(a: float, b: float) -> float:
-    '''
-    Adds two float numbers.
+    '''Adds two float numbers.
 
     Parameters:
     a (float): The first number.
