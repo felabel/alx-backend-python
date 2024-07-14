@@ -3,7 +3,7 @@ from typing import List, Tuple
 '''
 
 def zoom_array(lst: List[int], factor: int = 2) -> List[int]:
-    """
+    '''
     Zooms in on an array by repeating each element a given number of times.
 
     Parameters:
@@ -12,7 +12,7 @@ def zoom_array(lst: List[int], factor: int = 2) -> List[int]:
 
     Returns:
     List[int]: The zoomed-in list.
-    """
+    '''
     zoomed_in: List[int] = [
         item for item in lst
         for _ in range(factor)
